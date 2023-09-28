@@ -24,9 +24,9 @@
           <img src="./assets/img/logo.svg" alt="logo epicode" />
         </div>
         <p>EPICODE - IL BLOG DEI DEVELOPERS</p>
-        <p><i class="fas fa-arrow-right"></i> HOME <i class="fas fa-arrow-left"></i></p>
-        <p><i class="fas fa-arrow-right"></i> ARTICOLI <i class="fas fa-arrow-left"></i></p>
-        <p><i class="fas fa-arrow-right"></i> LAVORA CON NOI <i class="fas fa-arrow-left"></i></p>
+        <p><i class="fas fa-arrow-right"></i><a href="#"> HOME </a><i class="fas fa-arrow-left"></i></p>
+        <p><i class="fas fa-arrow-right"></i><a href="#"> ARTICOLI </a><i class="fas fa-arrow-left"></i></p>
+        <p><i class="fas fa-arrow-right"></i><a href="#"> LAVORA CON NOI </a><i class="fas fa-arrow-left"></i></p>
       </div>
     </header>
 
@@ -119,44 +119,35 @@
           <h2>novità</h2>
           <p>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:</p>
           <input type="email" placeholder="inserisci l'email" />
-
-          <!--dotted line
-          tasto blu "Iscriviti!"-->
+          <button type="submit">Iscriviti!</button>
         </div>
       </section>
 
-      <section>
+      <section class="aside">
         <h2>Articoli Correlati</h2>
         <div>
           <h3><a href="#">Validare il codice HTML</a></h3>
-          <p><!--tag icon-->Categoria: develop</p>
-          <!--in basso a dx date-->
-          <p>Data:18-9-2020</p>
+          <p><i class="fas fa-tag"></i> Categoria: develop</p>
+          <p class="date"><i class="fas fa-calendar-alt"></i> Data: 18-9-2020</p>
         </div>
         <div>
           <h3><a href="#">Correggere la sintassi</a></h3>
-          <p><!--tag icon-->Categoria: develop</p>
-          <!--in basso a dx date-->
-          <p>Data:16-9-2020</p>
+          <p><i class="fas fa-tag"></i> Categoria: develop</p>
+          <p class="date"><i class="fas fa-calendar-alt"></i> Data: 16-9-2020</p>
         </div>
         <div>
           <h3><a href="#">Meno Kb nella pagina</a></h3>
-          <p><!--tag icon-->Categoria: ottimizzazione</p>
-          <!--in basso a dx date-->
-          <p>Data:30-9-2020</p>
+          <p><i class="fas fa-tag"></i> Categoria: ottimizzazione</p>
+          <p class="date"><i class="fas fa-calendar-alt"></i> Data: 30-9-2020</p>
         </div>
-        <!--tutti i div devono avere background grigio e un border poco più scuro-->
       </section>
     </main>
 
     <footer>
-      <!--sfumatura background-->
       <p>Blog Epicode &copy;2021</p>
-      <p>Testata online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Einaudi 2 - Milano.</p>
       <p>
-        P.IVA 00112233.
-        <!--email in viola-->
-        info@epicode.school
+        Testata online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Einaudi 2 - Milano. P.IVA 00112233.
+        <a href="#"> info@epicode.school </a>
       </p>
     </footer>
   </body>
